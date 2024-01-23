@@ -1,0 +1,21 @@
+{
+    "description": "Projecto Arene",
+    "authors": [
+        {
+            "name": "Noc consulting",
+            "email":"luis.mussa@noconsulting.net"
+        }
+    ],
+    "autoload": {
+        
+        "psr-4":{
+            "App\\":"app",
+            "Core\\":"core"
+        }
+    },
+  
+    "require": {
+        "monolog/monolog": "2.0.*"
+    }
+
+}
